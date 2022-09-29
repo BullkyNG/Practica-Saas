@@ -1,0 +1,17 @@
+h1 {color: red;
+text-align: center;}
+
+nav {
+    ul{ text-align: center;
+        font-size: $ancho-boton;
+        li{ display: inline-block;
+            background-color: yellow;
+            padding: 5px;
+
+            a{ text-decoration: none;
+                color: black;
+
+            }
+        }
+    }
+}
