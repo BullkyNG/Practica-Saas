@@ -1,8 +1,24 @@
-main { background-color: yellow;
-    div{ 
-        p{ color: black;
-            font-size: large;
+main {
+    background-color: yellow;
 
+    div {
+        p {
+            @include color-letra
         }
     }
 }
+
+
+    p {
+        @include color-letra
+    }
+
+    .h2 { width: 30px;
+    height: 20px;
+border: 10px solid black;
+color: red;
+}
+
+.h2--agregar { @extend .btn;
+color: orange; }
+
